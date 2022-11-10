@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <button
         style={{ padding: "8px", height: "40px", background: "blue" }}
-        onClick={() => router.push("/ssr")}
+        onClick={() => router.push("/ssr-with-bot-detect")}
       >
         To ssr
       </button>
